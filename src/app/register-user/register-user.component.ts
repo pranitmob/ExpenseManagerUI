@@ -23,7 +23,7 @@ export class RegisterUSerComponent implements OnInit {
 
   onSubmit(){
     this.registerUSer();
-    this.submitted = true
+    this.submitted = true;
   }
 
 }

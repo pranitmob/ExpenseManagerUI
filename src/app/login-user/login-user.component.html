@@ -1,0 +1,18 @@
+<div align-content:center>
+    <div style="width: 400px;" class="content" align-content:center>
+      <h2>User Login </h2>
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="name">Email Name</label>
+          <input type="text" class="form-control" id="emailId" required [(ngModel)]="userLogin.email" name="emailId">
+        </div>
+        <div class="form-group">
+          <label for="age">Password</label>
+          <input type="password" class="form-control" id="password" required [(ngModel)]="userLogin.password" name="password">
+        </div>
+        <button type="submit" class="btn btn-success" >Login</button>
+      </form>
+    </div>
+</div>
+
+        

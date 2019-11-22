@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { RegisterUSerComponent } from './register-user/register-user.component';
 import { LoginServiceService } from './Services/UserService';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LoginUserComponent } from './login-user/login-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterUSerComponent
+    RegisterUSerComponent,
+    LoginUserComponent
   ],
   imports: [
     BrowserModule,
